@@ -14,13 +14,11 @@ Converted into binary classification:
 - 1 → High Risk
 - 0 → Low / Medium Risk
 
----
 
 ## Problem Statement
 
 Employee burnout and attrition are critical challenges in modern AI-driven industries. This project builds a classification model to identify high-risk employees early, allowing organizations to take preventive action.
 
----
 
 ## Project Pipeline
 
@@ -32,7 +30,6 @@ Employee burnout and attrition are critical challenges in modern AI-driven indus
 6. Model Evaluation  
 7. Prediction  
 
----
 
 ## Data Preprocessing
 
@@ -41,8 +38,6 @@ Employee burnout and attrition are critical challenges in modern AI-driven indus
 - Converted target to binary
 - Applied SMOTE to handle class imbalance
 - Feature scaling using StandardScaler
-
----
 
 ## Models Used
 
@@ -54,7 +49,6 @@ Employee burnout and attrition are critical challenges in modern AI-driven indus
 - RBF kernel
 - Used for comparison
 
----
 
 ## Evaluation Metrics
 
@@ -64,7 +58,6 @@ Employee burnout and attrition are critical challenges in modern AI-driven indus
 - Confusion Matrix
 - ROC-AUC
 
----
 
 ## Results
 
@@ -77,7 +70,6 @@ Employee burnout and attrition are critical challenges in modern AI-driven indus
 
 Logistic Regression performs significantly better in identifying high-risk employees.
 
----
 
 ## Key Insights
 
@@ -86,7 +78,6 @@ Logistic Regression performs significantly better in identifying high-risk emplo
 - Burnout score independently impacts risk
 - Recall is more important than accuracy due to class imbalance
 
----
 
 ## Visualizations
 
@@ -96,7 +87,6 @@ Logistic Regression performs significantly better in identifying high-risk emplo
 - Fear of AI vs attrition
 - Feature importance
 
----
 
 ## Technologies Used
 
@@ -109,7 +99,6 @@ Logistic Regression performs significantly better in identifying high-risk emplo
 - imbalanced-learn (SMOTE)
 - Jupyter Notebook
 
----
 
 ## How to Run
 
